@@ -1,0 +1,6 @@
+E:\VS2k17_projects\pyanyca\pyanyca\bin\Debug\pyanyca.exe.config
+E:\VS2k17_projects\pyanyca\pyanyca\bin\Debug\pyanyca.exe
+E:\VS2k17_projects\pyanyca\pyanyca\bin\Debug\pyanyca.pdb
+E:\VS2k17_projects\pyanyca\pyanyca\obj\Debug\pyanyca.csprojResolveAssemblyReference.cache
+E:\VS2k17_projects\pyanyca\pyanyca\obj\Debug\pyanyca.exe
+E:\VS2k17_projects\pyanyca\pyanyca\obj\Debug\pyanyca.pdb
