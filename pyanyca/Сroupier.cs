@@ -52,7 +52,7 @@ namespace pyanyca
             {
                 foreach (var player in Players)
                 {
-                    if(!player.Lose())
+                    if(!Lose(player))
                     {
                         Console.WriteLine(OnMove(player));
                         Console.ReadKey();
@@ -68,10 +68,20 @@ namespace pyanyca
 
         }
 
+        public bool Lose(Player p)
+        {
+            return p.CardsOnHand.Cards.Count == 0;
+        }
+
+        public bool Win(Player p)
+        {
+            return p.CardsOnHand.Cards.Count == 52;
+        }
+
         private Player EndOfGame(Player[] Players)
         {
             foreach (var player in Players)
-                if (player.Win()) return player;
+                if (Win(player)) return player;
             return null;
         }
     }

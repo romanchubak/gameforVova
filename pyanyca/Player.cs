@@ -30,14 +30,8 @@ namespace pyanyca
             foreach (var card in bank.Cards)
                 CardsOnHand.AddCardToBotom(card);
         }
-        public bool Lose()
-        {
-            return CardsOnHand.Cards.Count == 0;
-        }
-        public bool Win()
-        {
-            return CardsOnHand.Cards.Count == 52;
-        }
+        
+        
 
         public override string ToString()
         {
